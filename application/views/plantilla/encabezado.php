@@ -38,13 +38,22 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="<?= base_url('main/personas'); ?>">Persona</a>
+            <a class="nav-link" href="<?= base_url('welcome/vehiculos'); ?>">Vehiculos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="<?= base_url('main/newp'); ?>">Agregar</a>
+            <a class="nav-link" href="<?= base_url('welcome/newv'); ?>">Agregar vehiculo</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="<?= base_url('welcome/cliente'); ?>">Clientes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="<?= base_url('welcome/newc'); ?>">Agregar cliente</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="<?= base_url('welcome/reporte'); ?>">Reporte</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="<?= base_url('welcome/aventas'); ?>">Ventas</a>
           </li>
         </ul>
       </div>
